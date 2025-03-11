@@ -4,7 +4,7 @@ import { WalletButton } from "xenconnect"; // Import WalletButton
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-purple-500">
+    <div className="flex items-center justify-center min-h-screen bg-gray-300">
       <WalletButton label="Connect Wallet" />
     </div>
   );
